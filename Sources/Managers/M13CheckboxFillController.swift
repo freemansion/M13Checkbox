@@ -193,7 +193,7 @@ internal class M13CheckboxFillController: M13CheckboxController {
         markLayer.fillColor = nil
         
         if pathGenerator.pathForMark(state) != nil {
-            selectedBoxLayer.transform = CATransform3DMakeScale(1.0, 1.0, 1.0)
+            selectedBoxLayer.transform = CATransform3DMakeScale(0.75, 0.75, 0.75)
             markLayer.opacity = 1.0
         } else {
             selectedBoxLayer.transform = CATransform3DMakeScale(0.0, 0.0, 0.0)
